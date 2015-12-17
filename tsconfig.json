@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es6",
+        "noImplicitAny": false,
+        "outDir": "es6",
+        "rootDir": "src",
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "files": [
+        "tsd.d.ts",
+        "src/index.ts",
+        "src/dashboard.ts",
+        "src/Garcon.ts",
+        "src/utils/fs.ts"
+    ]
+}
